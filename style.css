@@ -19,14 +19,15 @@ body {
 }
 
 /*FlexBox*/
-.gallery {
+.galeria {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 /*Selector grupal Galeia y imagenes*/
-.gallery img {
+.galeria img {
   width: 100%;
   max-width: 350px;
   height: 300px;
